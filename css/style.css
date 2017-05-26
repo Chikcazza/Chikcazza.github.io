@@ -46,20 +46,20 @@ strong {
     color:#800;
 }
 
-.centered {
+centered {
     text-align:center;
 }
 
-.preservespace  {
-    white-space:pre;
+preservespace  {
+    white-space:pre-wrap;
 }
 
-.wrapper {
+wrapper {
     padding:10px 0;
     width:100%;
 }
 
-.container {
+container {
     margin:0 auto;
     width:1200px;
     
