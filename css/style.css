@@ -50,6 +50,13 @@ strong {
     text-align:center;
 }
 
+.preservespace  {
+    margin:0 auto;
+    width:1200px;
+    white-space:pre-wrap;
+
+}
+
 .wrapper {
     padding:10px 0;
     width:100%;
