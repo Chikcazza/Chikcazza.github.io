@@ -51,8 +51,7 @@ strong {
 }
 
 .preservespace  {
-    white-space:pre-wrap;
-
+    white-space:pre;
 }
 
 .wrapper {
