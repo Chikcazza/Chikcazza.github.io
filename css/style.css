@@ -55,10 +55,16 @@ strong {
     width:100%;
 }
 
-.container {
+.preservespace  {
     margin:0 auto;
     width:1200px;
     white-space:pre-wrap;
+}
+
+.container {
+    margin:0 auto;
+    width:1200px;
+    
 }
 
 ul.grid-nav {
