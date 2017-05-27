@@ -51,15 +51,15 @@ centered {
 }
 
 .preservespace  {
-    white-space:pre;
+    white-space:pre-wrap;
 }
 
-wrapper {
+.wrapper {
     padding:10px 0;
     width:100%;
 }
 
-container {
+.container {
     margin:0 auto;
     width:1200px;
     
