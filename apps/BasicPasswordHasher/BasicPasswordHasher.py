@@ -1,5 +1,5 @@
-desired_hash = 675 #Stored hash of password ciscoclass. User wants to match this.
-final_hash = 1 #Starting final hash value used for computations.
+desired_hash = 675 #Stored hash of password ciscoclass. User wants to match this hash with the one they enter.
+final_hash = 1 #Starting final hash value used for password hashing algorithim computations.
 
 def translater():
  global final_hash 
