@@ -12,9 +12,9 @@ def translater():
    if letter in translations:
     print("IH - " + str(translations.get(letter, "none")))
     if int(translations.get(letter, "none")) % 2 == 0:
-       final_hash = final_hash * int(translations.get(letter, "none"))
+       final_hash = final_hash * int(translations.get(letter))
     elif int(translations.get(letter, "none")) % 2 != 0:
-       final_hash = final_hash + int(translations.get(letter, "none"))
+       final_hash = final_hash + int(translations.get(letter))
    else:
     print("ERROR!")
  print("CH - " + str(final_hash))
