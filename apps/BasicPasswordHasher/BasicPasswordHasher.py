@@ -10,11 +10,11 @@ def translater():
  user_input = raw_input("Enter lowercase passphrase: ")
  for letter in str(user_input):
    if letter in translations:
-    print("IH - " + str(translations.get(letter, "none")))
+    print("IH - " + str(translations.get(letter)))
     if int(translations.get(letter, "none")) % 2 == 0:
-       final_hash = final_hash * int(translations.get(letter, "none"))
+       final_hash = final_hash * int(translations.get(letter))
     elif int(translations.get(letter, "none")) % 2 != 0:
-       final_hash = final_hash + int(translations.get(letter, "none"))
+       final_hash = final_hash + int(translations.get(letter))
    else:
     print("ERROR!")
  print("CH - " + str(final_hash))
